@@ -1,0 +1,47 @@
+==================
+Literals
+==================
+
+nil
+true
+false
+1
+"a"
+a
+:a
+()
+{}
+[]
+
+---
+
+(source
+  (nil)
+  (boolean)
+  (boolean)
+  (number)
+  (string)
+  (symbol)
+  (symbol)
+  (symbol)
+  (list)
+  (table)
+  (seq_table))
+
+==================
+Basic
+==================
+
+(local utils (require "utils"))
+
+---
+
+(source
+  (list
+    (symbol)
+    (symbol)
+    (list
+      (symbol)
+      (string))))
+
+
